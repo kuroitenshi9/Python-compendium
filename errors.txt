@@ -1,0 +1,1 @@
+Ha mamy b³êdycould not convert string to float: 'a'could not convert string to float: ' o'could not convert string to float: ' i'could not convert string to float: ' hell'

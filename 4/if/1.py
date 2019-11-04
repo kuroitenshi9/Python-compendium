@@ -1,11 +1,12 @@
 '''
-stwórz listę przedmiotów, które zabierzesz na samotną wyprawę w góry.
-Wyświetl nazwę właśnie spakowanego przedmiotu, po ostatnim przedmiocie pokaż informację: “Great, we are ready!”
+Poproś użytkownika o podanie liczby.
+Sprawdź czy liczba podana przez użytkownika jest podzielna przez 3 bez reszty i wyświetl komunikat
+ “Twoja liczba jest podzielna przez 3”.
 '''
 
-backpack = ["shoes", "apple", "chocolate", "rope", "jacket"]
-for step, name in enumerate(backpack):
-    print("Packed: ", name)
-print()
-for step in range(len(backpack)):
-    print("Packed: ", backpack[step])
+x = float(input("Insert number: "))
+
+if x%3 == 0:
+    print("Your number is divisible by 3")
+else:
+    print("Your number is not divisible by 3")

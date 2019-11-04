@@ -1,0 +1,5 @@
+Ha mamy b³êdy
+could not convert string to float: ' aa'
+could not convert string to float: ' iiii'
+could not convert string to float: ' hello'
+could not convert string to float: ' turtle'

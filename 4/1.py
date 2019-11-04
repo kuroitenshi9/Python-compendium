@@ -1,12 +1,12 @@
 '''
-Poproś użytkownika o podanie liczby.
-Sprawdź czy liczba podana przez użytkownika jest podzielna przez 3 bez reszty i wyświetl komunikat
- “Twoja liczba jest podzielna przez 3”.
+ Pozwól użytkownikowi wprowadzić dowolną liczbę imion ciągiem
+ (np.jako jeden string rozdzielonych przecinkiem lub białym znakiem).
+ Następnie powitaj każdą osobę na liście.
 '''
 
-x = float(input("Insert number: "))
+x = input("Podaj różne imiona po przecinku: ")
+array = x.split(", ")
+print(array)
 
-if x%3 == 0:
-    print("Your number is divisible by 3")
-else:
-    print("Your number is not divisible by 3")
+for name in range(len(array)):
+    print("Hello", array[name])
